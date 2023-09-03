@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: hsl(53, 100%, 50%);
+    height: 60px;
+    color: aliceblue;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 2px; */
+    /* opacity: 0.7; */
+}
+
+/* .impor{
+    width: 100%;
+    background-color: aliceblue;
+    opacity: 0.4;
+    height: 800px;
+    box-shadow: 0cm;
+} */
+.img{
+    margin: 70px 70px;
+    
+}
+.navbar ul li{
+    /* display: inline-block; */
+    display: flex;
+    float: right;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: aliceblue;
+    bottom: 100px;
+    position: relative;
+}
+ul,li,a{
+    text-decoration: none;
+    color: aliceblue;
+    /* bottom: 100px; */
+}
+.heading{
+    color: aliceblue;
+    /* align-items: center; */
+    text-align: center;
+    margin-left: 350px;
+    font-size: 60px;
+
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 4%;
+}
+
+.box{
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem 1.5rem;
+    background-color: #eee9e9;
+    margin: 4px;
+}
+.footer{
+    padding: 15px;
+    text-align: center;
+}
+.btn{
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(251, 214, 7);
+    margin-top: 20px;
+}
